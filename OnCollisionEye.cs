@@ -113,7 +113,7 @@ public class OnCollisionEye : TimeSync
         string date = System.DateTime.Now.ToString("yyyy_MM_dd");
 
         // Your path to save the data. Application.dataPath means that we will save the data under the Assets folder of your project. 
-        //I have also included a folder under the Assets folder and I am saving the data in LookedAtInstructions.csv
+        //I have also included a folder under the Assets folder and I am saving the data in LookedAtExperimentsModels.csv
         string path = $"{Application.dataPath}/Data/" + "LookedAtExperimentsModels.csv";
 
         double pupilTime = GetPupilTimestamp();
